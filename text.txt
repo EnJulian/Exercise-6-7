@@ -1,0 +1,40 @@
+﻿You are building a ticket booking system for a cinema. 
+The system needs to determine the ticket price based on the movie type, age, and seat selection. 
+Implement the following rules using if, else if, else statements, comparison operators, and logical operators:
+
+- For regular movies:
+  - For children (age < 12), the ticket price is $8.
+  - For adults (age >= 12 and age < 65), the ticket price is $12.
+  - For seniors (age >= 65), the ticket price is $10.
+
+- For 3D movies:
+  - For children (age < 12), the ticket price is $10.
+  - For adults (age >= 12 and age < 65), the ticket price is $15.
+  - For seniors (age >= 65), the ticket price is $12.
+
+- For IMAX movies:
+  - For children (age < 12), the ticket price is $12.
+  - For adults (age >= 12 and age < 65), the ticket price is $18.
+  - For seniors (age >= 65), the ticket price is $15.
+
+- For VIP seats, add $5 to the ticket price.
+
+Implement the ticket booking system by taking inputs for movie type 
+("regular", "3D", or "IMAX"), age, and seat selection, and outputting the final ticket price based on the rules above.
+
+
+
+
+
+You are building a subscription plan calculator for a fitness app. 
+The calculator needs to determine the monthly subscription cost based on the user's selected plan and additional options. 
+Implement the following rules using switch cases, comparison operators, and logical operators:
+
+- The available plans are: "Basic", "Standard", and "Premium".
+- The base monthly costs for each plan are: Basic - $10, Standard - $15, and Premium - $20.
+- Users can select additional options: "Personal Trainer" and "Meal Plan".
+- The Personal Trainer option costs $5 per month, and the Meal Plan option costs $8 per month.
+- If the user selects both options, an additional discount of $3 is applied.
+
+Implement the subscription plan calculator by taking inputs for the selected plan and the options, 
+and outputting the final monthly subscription cost based on the rules above.
